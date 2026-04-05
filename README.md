@@ -4,7 +4,7 @@ A Rust library for sending SMS messages using the MIM SMS API provided by Robi.
 
 ## Description
 
-RustMIMSMS is a simple, asynchronous Rust crate that provides an easy-to-use interface for sending SMS messages through the MIM SMS service. It supports both single SMS sending and bulk SMS broadcasting to multiple recipients.
+RustMIMSMS is a simple, asynchronous Rust crate that provides an easy-to-use interface for sending autonomous SMS messages through the MIM SMS service. It supports both single SMS sending and bulk SMS broadcasting to multiple recipients.
 
 ## Features
 

@@ -1,19 +1,17 @@
 [package]
-name = "rustsms"
+name = "rustmimsms"
 version = "0.1.0"
 edition = "2021"
-authors = ["uch105"]
-description = "A Rust library for sending SMS messages using the MIM SMS API provided by Robi"
+authors = ["tanvirsaklan"]
+description = "A Rust library for sending automated SMS messages using the MIM SMS API provided by Robi"
 license = "MIT"
-repository = "https://github.com/uch105/rustmimsms"
-homepage = "https://github.com/uch105/rustmimsms"
-documentation = "https://docs.rs/rustsms"
+repository = "https://github.com/tanvirsaklan/rustmimsms"
+homepage = "https://github.com/tanvirsaklan/rustmimsms"
 readme = "README.md"
-keywords = ["sms", "messaging", "robi", "api"]
+keywords = ["sms", "messaging", "robi", "api", "bulk-sms", "mimsms"]
 categories = ["api-bindings", "network-programming"]
 
 [dependencies]
-dotenvy = "0.15.7"
 reqwest = { version = "0.13.2", features = ["json"] }
 serde = { version = "1.0.228", features = ["derive"] }
 tokio = { version = "1.50.0", features = ["full"] }
