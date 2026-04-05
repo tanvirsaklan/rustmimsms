@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/tanvirsaklan/rustmimsms"
 homepage = "https://github.com/tanvirsaklan/rustmimsms"
 readme = "README.md"
-keywords = ["sms", "messaging", "robi", "api", "bulk-sms", "mimsms"]
+keywords = ["sms", "robi", "api", "bulk-sms", "mimsms"]
 categories = ["api-bindings", "network-programming"]
 
 [dependencies]
