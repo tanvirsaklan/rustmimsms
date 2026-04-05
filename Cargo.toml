@@ -1,7 +1,16 @@
 [package]
 name = "rustsms"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["uch105"]
+description = "A Rust library for sending SMS messages using the MIM SMS API provided by Robi"
+license = "MIT"
+repository = "https://github.com/uch105/rustmimsms"
+homepage = "https://github.com/uch105/rustmimsms"
+documentation = "https://docs.rs/rustsms"
+readme = "README.md"
+keywords = ["sms", "messaging", "robi", "api"]
+categories = ["api-bindings", "network-programming"]
 
 [dependencies]
 dotenvy = "0.15.7"
